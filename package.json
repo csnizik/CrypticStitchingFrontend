@@ -3,11 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "concurrently \"npm run mock-api\" \"next dev\"",
+    "mock-api": "json-server --watch mock-data/db.json --port 5000",
+    "dev": "concurrently \"npm run mock-api\" \"next\"",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "mock-api": "json-server --watch mock-data/db.json --port 5000"
+    "lint": "next lint"
   },
   "dependencies": {
     "@types/node": "18.16.3",
