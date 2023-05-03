@@ -1,0 +1,17 @@
+{
+  "patterns": [
+    {
+      "uid": 1,
+      "title": "Example Pattern",
+      "creator": "John Doe",
+      "category": ["Category A", "Category B"],
+      "tags": ["Tag 1", "Tag 2"],
+      "width": 120,
+      "height": 80,
+      "date_added": "2023-05-03T14:48:00.000Z",
+      "ratingsOverall": 4.2,
+      "ratingsDifficulty": 3.5,
+      "ratingsFun": 4.7
+    }
+  ]
+}

@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "mock-api": "json-server --watch mock-data/db.json --port 5000"
   },
   "dependencies": {
     "@types/node": "18.16.3",
